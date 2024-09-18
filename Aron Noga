@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernährungsratgeber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .credit {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ernährungsratgeber</h1>
+    </header>
+    <nav>
+        <a href="#home">Startseite</a>
+        <a href="#benefits">Vorteile</a>
+        <a href="#nutrition">Ernährungsarten</a>
+        <a href="#recipes">Rezepte</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Startseite</h2>
+            <p>Willkommen auf unserem Ernährungsratgeber. Hier finden Sie wertvolle Informationen und Tipps zur gesunden Ernährung.</p>
+            <p class="credit">Website erstellt von Aron Noga</p>
+        </section>
+        <section id="benefits" class="section">
+            <h2>Vorteile einer gesunden Ernährung</h2>
+            <p>Eine ausgewogene Ernährung bietet viele Vorteile, darunter eine bessere Gesundheit, mehr Energie und ein geringeres Risiko für chronische Krankheiten.</p>
+        </section>
+        <section id="nutrition" class="section">
+            <h2>Ernährungsarten</h2>
+            <p>Erfahren Sie mehr über verschiedene Ernährungsarten wie die mediterrane Diät, vegane Ernährung und Low-Carb-Diäten.</p>
+        </section>
+        <section id="recipes" class="section">
+            <h2>Rezepte</h2>
+            <p>Entdecken Sie leckere und gesunde Rezepte, die leicht zuzubereiten sind und Ihren Speiseplan bereichern.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Kontakt</h2>
+            <p>Wenn Sie Fragen haben oder weitere Informationen benötigen, können Sie uns hier kontaktieren.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ernährungsratgeber</p>
+    </footer>
+</body>
+</html>
